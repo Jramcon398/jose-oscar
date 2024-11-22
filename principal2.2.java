@@ -16,9 +16,9 @@ public class Main {
 		System.out.println("Suma: " + resultado);
 	}
 
-	public static int suma(int a, int b) {
+	public static int producto(int a, int b) {
 		int c;
-		c = a + b;
+		c = a * b;
 		return c;
 	}
 }

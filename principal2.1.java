@@ -11,11 +11,14 @@ public class Main {
 		numero1 = sc.nextInt();
 		System.out.print("Introduce segundo número: ");
 		numero2 = sc.nextInt();
+
+		resultado = suma(numero1, numero2);
+		System.out.println("Suma: " + resultado);
 	}
 
-	public static int resta(int a, int b) {
+	public static int producto(int a, int b) {
 		int c;
-		c = a - b;
+		c = a * b;
 		return c;
 	}
 }
